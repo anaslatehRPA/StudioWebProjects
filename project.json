@@ -2,10 +2,10 @@
   "name": "Extract_Invoices",
   "projectId": "82d8b3a5-2474-440f-a4c5-3dbddad6fdd7",
   "description": "extraction builders invoice demo ",
-  "main": "DU_process_Clasification.xaml",
+  "main": "Sequence_AI_classifier.xaml",
   "dependencies": {
     "UiPath.DocumentUnderstanding.Activities": "2.9.0",
-    "UiPath.Excel.Activities": "[2.23.3-preview]",
+    "UiPath.Excel.Activities": "[2.22.3]",
     "UiPath.IntelligentOCR.Activities": "[6.19.0]",
     "UiPath.System.Activities": "24.3.1",
     "UiPath.WebAPI.Activities": "1.20.1"
@@ -56,8 +56,14 @@
       "output": []
     },
     {
-      "filePath": "DU_process_Clasification.xaml",
-      "uniqueId": "db095836-b2f4-4a7d-bf20-f264f9a0423b",
+      "filePath": "DU_process.xaml",
+      "uniqueId": "7aec6623-8f80-4cf7-b56c-195d862cf6f1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence_AI_classifier.xaml",
+      "uniqueId": "9db6bcf9-6411-46ce-be23-281f6c77e69b",
       "input": [],
       "output": []
     }
