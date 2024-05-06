@@ -2,9 +2,11 @@
   "name": "Extract_Invoices",
   "projectId": "82d8b3a5-2474-440f-a4c5-3dbddad6fdd7",
   "description": "extraction builders invoice demo ",
-  "main": "Main.xaml",
+  "main": "DU_process_Clasification.xaml",
   "dependencies": {
     "UiPath.DocumentUnderstanding.Activities": "2.9.0",
+    "UiPath.Excel.Activities": "[2.23.3-preview]",
+    "UiPath.IntelligentOCR.Activities": "[6.19.0]",
     "UiPath.System.Activities": "24.3.1",
     "UiPath.WebAPI.Activities": "1.20.1"
   },
@@ -50,6 +52,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "dbfa81b5-f68e-4417-a586-aece6f4ecfcb",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DU_process_Clasification.xaml",
+      "uniqueId": "db095836-b2f4-4a7d-bf20-f264f9a0423b",
       "input": [],
       "output": []
     }
